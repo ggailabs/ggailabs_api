@@ -7,5 +7,5 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# Inclua aqui seus endpoints
+# Endpoints
 app.include_router(youtube.router, prefix="/youtube", tags=["YouTube"])
